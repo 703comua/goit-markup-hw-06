@@ -26,15 +26,10 @@
 	
 	document.querySelector(".hero__btn").addEventListener("click", toggleOrderServiceModal);
 	document.querySelector(".modal__close-btn").addEventListener("click", toggleOrderServiceModal);
-    document.querySelector(".backdrop").addEventListener("click", removeOrderServiceModal);
 ;
 	function toggleOrderServiceModal() {
         document.querySelector(".backdrop").classList.toggle("is-open");
         document.body.classList.toggle("no-scroll");
 	}
 	
-	function removeOrderServiceModal() {
-		document.querySelector(".backdrop").classList.remove("is-open");
-		document.body.classList.remove("no-scroll");
-	}
 })();
