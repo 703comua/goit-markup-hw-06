@@ -26,7 +26,7 @@
 	
 	document.querySelector(".hero__btn").addEventListener("click", toggleOrderServiceModal);
 	document.querySelector(".modal__close-btn").addEventListener("click", toggleOrderServiceModal);
-;
+
 	function toggleOrderServiceModal() {
         document.querySelector(".backdrop").classList.toggle("is-open");
         document.body.classList.toggle("no-scroll");
